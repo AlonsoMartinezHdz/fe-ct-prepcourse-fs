@@ -5,6 +5,9 @@ function retornarPerimetro(lado) {
    // 2 ---> 8
    // 0 ---> 0
    // Tu código:
+   return Math.pow(lado,2)
 }
+console.log(retornarPerimetro(4));
+
 
 module.exports = retornarPerimetro;
